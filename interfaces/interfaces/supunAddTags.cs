@@ -101,21 +101,7 @@ namespace interfaces
             }
 
 
-           /* SqlCommand cmd = new SqlCommand(Query, con);
-
-            SqlDataAdapter da = new SqlDataAdapter();
-
-            da.SelectCommand = cmd;
-
-            DataTable dt = new DataTable();
-
-            da.Fill(dt);
-
-            BindingSource bsource = new BindingSource();
-
-            bsource.DataSource = dt;
-
-            dataGridView.DataSource = bsource;*/
+           
 
         }
 
@@ -419,10 +405,7 @@ namespace interfaces
         private void button2_Click(object sender, EventArgs e)//Reset Btn
         {
            
-            //mm.aa();
-            MessageBox.Show(campusComboValue);
-            //selectTagCombo.ResetText();
-            //selectSubjectCombo.ResetText();
+            
             if (selectTagCombo.Text!="")
             {
                 selectTagCombo.Items[selectTagCombo.SelectedIndex] = string.Empty;
